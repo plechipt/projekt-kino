@@ -7,6 +7,7 @@ html {
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: rgb(20, 20, 20);
 }
 
 .top-bar {
@@ -47,7 +48,7 @@ nav ul li:hover {
 .container {
   color: white;
   margin: auto;
-  width: 55%;
+  width: 50%;
   background-color: #1d1d1d;
 }
 
@@ -57,7 +58,6 @@ nav ul li:hover {
   flex-wrap: wrap;
   margin: auto;
   width: 100%;
-  margin-top: 5rem;
 }
 
 .main-movie img {
