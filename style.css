@@ -40,3 +40,20 @@ nav ul li:hover {
   cursor: pointer;
   color: #dfa92f;
 }
+
+.movies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 600px;
+  margin-top: 5rem;
+}
+
+.main-movie img {
+  width: 100%;
+}
+
+.bottom-movie {
+  width: 32.8%;
+}
