@@ -14,7 +14,7 @@ body {
 }
 
 .top-bar nav {
-  margin-top: 1.25rem;
+  margin-top: 1.5rem;
 }
 
 .main-logo {
@@ -30,6 +30,10 @@ nav ul li {
   color: white;
   margin-right: 1.5rem;
   display: block;
+}
+
+.navbar-item {
+  all: unset;
 }
 
 nav ul li:hover {
