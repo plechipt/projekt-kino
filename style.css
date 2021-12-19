@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Roboto:ital,wght@0,500;1,100;1,700&display=swap");
 
-body {
+body,
+html {
   font-family: "Quicksand", sans-serif;
   margin: 0;
   padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .top-bar {
@@ -108,4 +111,29 @@ nav ul li:hover {
 
 .footer-logo {
   width: 100px;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .google-map {
+    width: 200%;
+    height: 300px;
+  }
 }
