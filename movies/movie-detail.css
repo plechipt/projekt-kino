@@ -1,0 +1,26 @@
+.movie-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.movie-year-length,
+.movie-plot {
+  font-size: 12px;
+}
+
+.movie-year-length,
+.movie-plot {
+  color: #a5a5a5;
+}
+
+.trailer-title {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.trailer-container {
+  display: flex;
+  justify-content: center;
+}
