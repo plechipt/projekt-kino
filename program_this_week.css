@@ -29,7 +29,8 @@ table {
 th,
 td {
   border: solid 2px rgb(53, 53, 53);
-  padding: 5px;
+  padding: 8px;
+  font-size: 13px;
 }
 
 thead tr th {
@@ -42,6 +43,15 @@ thead tr th {
 
 .table-left {
   text-align: left;
+}
+
+.movie-title {
+  font-size: 15px;
+}
+
+.movie-title-in-english {
+  color: #a5a5a5;
+  font-size: 13px;
 }
 
 .footer-container {
