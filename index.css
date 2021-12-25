@@ -92,6 +92,10 @@ nav ul li:hover {
   justify-content: center;
 }
 
+.contact-left-side {
+  font-size: 15px;
+}
+
 .google-map {
   margin-top: 1.3rem;
   width: 100%;
