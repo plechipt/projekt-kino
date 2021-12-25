@@ -69,8 +69,8 @@ nav ul li:hover {
   justify-content: center;
 }
 
-.bottom-movie {
-  width: 33%;
+.bottom-movie img {
+  width: 100%;
 }
 
 .kontakt {
