@@ -26,6 +26,10 @@
   justify-content: center;
 }
 
+.movie-container img {
+  height: 180px;
+}
+
 .images,
 .image {
   display: flex;
