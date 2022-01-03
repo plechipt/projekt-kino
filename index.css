@@ -21,6 +21,11 @@ html {
   margin-top: 1.5rem;
 }
 
+.top-bar ul li {
+  display: flex;
+  align-items: center;
+}
+
 .main-logo {
   width: 125px;
 }
@@ -93,7 +98,7 @@ nav ul li:hover {
 }
 
 .contact-left-side {
-  font-size: 15px;
+  font-size: 14.5px;
 }
 
 .google-map {
