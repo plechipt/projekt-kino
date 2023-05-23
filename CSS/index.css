@@ -164,4 +164,7 @@ nav ul li:hover {
     width: 200%;
     height: 300px;
   }
+  nav ul a li {
+    margin-right: 2.25em !important;
+  }
 }
